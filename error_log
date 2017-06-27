@@ -1,0 +1,7 @@
+[26-Dec-2015 03:39:01 America/New_York] PHP Warning:  file_get_contents(http://public.api.careerjet.net/search?locale_code=en_CA&amp;page=1&amp;pagesize=25&amp;keywords=Sales+&amp;location=Ca&amp;affid=eeafcb71b548714425accf5b653a1ada): failed to open stream: Connection timed out in /home/affoavsh/public_html/filodirectory.com/jobs/api/careerjet/Careerjet_API.php on line 158
+[26-Dec-2015 03:39:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/affoavsh/public_html/filodirectory.com/jobs/api/careerjet/Careerjet_API.php on line 271
+[26-Dec-2015 03:39:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/affoavsh/public_html/filodirectory.com/jobs/functions.php on line 863
+[26-Dec-2015 11:56:19 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/affoavsh/public_html/filodirectory.com/jobs/assets/lang/en-US.php on line 74
+[26-Dec-2015 11:56:34 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/affoavsh/public_html/filodirectory.com/jobs/assets/lang/en-US.php on line 74
+[26-Dec-2015 11:56:39 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/affoavsh/public_html/filodirectory.com/jobs/assets/lang/en-US.php on line 74
+[26-Dec-2015 11:57:07 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/affoavsh/public_html/filodirectory.com/jobs/assets/lang/en-US.php on line 74

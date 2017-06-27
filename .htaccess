@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^[^.]+\.[^.]+$
+	RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [L,R=301]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /index.php [QSA,L]
+</IfModule>
+
+#Options +FollowSymlinks
+#RewriteEngine on
+#rewriterule ^(.*)$ http://cdn.filodirectory.com/$1 [r=301,nc]
+# BEGIN WordPress
+# END WordPress
+
+
+# BAN USER BY IP
+<Limit GET POST>
+ order allow,deny
+ allow from all
+ deny from 123.63.30.165
+</Limit>
