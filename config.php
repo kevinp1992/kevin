@@ -36,7 +36,7 @@ $language_switcher = 'on';
 
 // SEARCH SETTINGS
 $limit_listings = "10"; // Limit search listings per source
-$default_keyword = "cloud architech"; // Set Default Niche keyword. ie: Developer
+$default_keyword = "cloud engineer; // Set Default Niche keyword. ie: Developer
 $default_location = "US"; // Set Default Location
 
 
